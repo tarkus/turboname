@@ -11,4 +11,12 @@ module Turboname
   def self.path
     File.dirname(__FILE__)
   end
+
+  def self.prefix
+    @@prefix
+  end
+
+  def self.prefix=(prefix)
+    @@prefix = prefix
+  end
 end
