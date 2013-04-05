@@ -3,7 +3,7 @@
 # Turboname
 # finding domain names at lightspeed
 
-require 'turboname'
+require_relative '../lib/turboname'
 
 puts ' ________  _____  ___  ____  _  _____   __  _______'
 puts '/_  __/ / / / _ \/ _ )/ __ \/ |/ / _ | /  |/  / __/'

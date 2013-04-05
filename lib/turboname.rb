@@ -1,7 +1,7 @@
-require "turboname/version"
-require "turboname/domain"
-require "turboname/dictionary"
-require "turboname/random_dictionary"
+require_relative "turboname/version"
+require_relative "turboname/domain"
+require_relative "turboname/dictionary"
+require_relative "turboname/random_dictionary"
 require "whois"
 
 module Turboname
